@@ -7,10 +7,6 @@ body {
     overflow-x: hidden;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('../res/bg1.jpg'); /* Replace 'your-image.jpg' with the path to your background image */
-    background-size: cover;
-    background-attachment: fixed; /* This makes the background image fixed */
-    background-position: center;
     min-height: 100vh; /* Set a minimum height to cover the entire viewport */
     
 }
