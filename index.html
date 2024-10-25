@@ -14,7 +14,32 @@
 
     <!-- Dark Theme Favicon (for dark theme) -->
     <link rel="icon" href="res/logo.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Container styling */
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
 
+        /* Icon styling */
+        .social-icons a {
+            color: #333;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        /* Change color on hover for each icon */
+        .social-icons a:hover .fa-facebook { color: #3b5998; } /* Facebook */
+        .social-icons a:hover .fa-instagram { color: #E1306C; } /* Instagram */
+        .social-icons a:hover .fa-telegram { color: #0088cc; } /* Telegram */
+        .social-icons a:hover .fa-goodreads { color: #553b08; } /* Goodreads */
+        .social-icons a:hover .fa-letterboxd { color: #00c36a; } /* Letterboxd */
+        .social-icons a:hover .fa-youtube { color: #FF0000; } /* YouTube */
+    </style>
 
 </head>
 
@@ -41,16 +66,14 @@
         integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
         crossorigin="anonymous"></script>
     <footer>
-        <div class="rounded-social-buttons">
-            
-            
-              <a class="social-button twitter" href="https://www.twitter.com/@_harishchhetri" target="_blank"><i
-                    class="fab fa-twitter"></i></a>      
-
-            <a class="social-button youtube" href="https://www.youtube.com/@_harishchhetri" target="_blank"><i
-                    class="fab fa-youtube"></i></a>
         
-        </div>
+        <div class="social-icons">
+    <a href="https://facebook.com/st0lenwinter" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://instagram.com/_harishchhetri" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://t.me/stolenwinter" target="_blank"><i class="fab fa-telegram"></i></a>
+    <a href="https://goodreads.com/stolenwinter" target="_blank"><i class="fab fa-goodreads"></i></a>
+    <a href="https://youtube.com/@harishchhetri" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
     </footer>
     <script src="res/script.js"></script>
 </body>
